@@ -1,0 +1,21 @@
+/*Selectores
+/*clases-> class -> .container-fluid
+ID ->id -> #principal
+Etiquetas -> <> -> body, nava*/ 
+
+/*Sintaxis 
+
+Selector{
+	atributo : "valor"; solo cadenas de texto con comillas
+	atributo1 : #ddd;
+}*/
+
+body{
+	font-family: 'Raleway', sans-serif;
+
+}
+header{background: url("../img/background_header.jpg") no-repeat;height: 750px; background-size: cover;}/* .. sube un nivel */
+#logotipo{margin-top: 40px;}
+header .nav-link{font-size: 13px;color: #fff;padding-top: 40px;} 
+header .nav{justify-content: flex-end;}
+header .nav-link:hover{background: #fff;color: #31344e;}
