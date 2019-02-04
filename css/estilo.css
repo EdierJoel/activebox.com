@@ -1,21 +1,25 @@
-/*Selectores
-/*clases-> class -> .container-fluid
-ID ->id -> #principal
-Etiquetas -> <> -> body, nava*/ 
-
-/*Sintaxis 
-
-Selector{
-	atributo : "valor"; solo cadenas de texto con comillas
-	atributo1 : #ddd;
-}*/
-
 body{
+
 	font-family: 'Raleway', sans-serif;
 
 }
-header{background: url("../img/background_header.jpg") no-repeat;height: 750px; background-size: cover;}/* .. sube un nivel */
+
+header{background: url("../img/background_header.jpg")no-repeat;height: 750px;background-size: cover;}
+
 #logotipo{margin-top: 40px;}
-header .nav-link{font-size: 13px;color: #fff;padding-top: 40px;} 
+
 header .nav{justify-content: flex-end;}
-header .nav-link:hover{background: #fff;color: #31344e;}
+
+header .nav-link{font-size: 13px;color: #ffffff;padding-top: 40px}
+
+header .nav-link:hover{background: #fff;color: #31344e}
+
+#titulo{font-size: 65px;font-weight: bold;margin-top: 155px;color:#fff; text-align: center;}
+
+#titulo1 {font-size: 65px;font-weight: bold;color: #fff; text-align: center;}
+
+#subti {font-size: 22px; color: #fff; text-align: center;}
+
+#subti1 {font-size: 22px;color: #fff; text-align: center;}
+
+#boton{margin-top: 80px;}
